@@ -52,3 +52,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.getElementById("submitButton").addEventListener("click", function () {
+   location.reload();
+});

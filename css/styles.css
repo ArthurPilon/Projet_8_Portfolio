@@ -10971,6 +10971,12 @@ html {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background-image: url('assets/img/portfolio/background.webp');
+    background-size: cover; /* L'image couvrira tout le header */
+    background-position: center; /* Centrer l'image */
+    background-repeat: no-repeat; /* Éviter que l'image se répète */
+    padding: 6rem 0; /* Ajouter du padding pour un espacement */
+    color: #fff; /* S'assurer que le texte reste lisible */
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
